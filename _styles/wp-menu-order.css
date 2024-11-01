@@ -1,0 +1,60 @@
+#wpms-sitemap {
+	background-color: #fff;
+	border: 1px solid #dfdfdf;
+	padding: 10px 0;
+}
+	#wpms-sitemap ul {
+		margin: 0 0 0 16px;
+		padding: 0;
+	}
+		#wpms-sitemap li {
+			clear: both;
+			display: block;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+
+	#wpms-sitemap dl {
+		position: relative;
+		display: block;
+		height: auto !important;
+		height: 19px;
+		min-height: 19px;
+		margin :0;
+		border-top: 1px solid #eee;
+		padding: 3px 0 0 0;
+		background: #fff;
+	}
+		#wpms-sitemap dt {
+			display: inlne;
+			float: left;
+			margin: 0 0 0 16px;
+			padding: 3px 0 0 1px;
+		}
+		#wpms-sitemap dd {
+			display: inline;
+			float: left;
+			margin: 0;
+			padding: 0;
+		}
+#wpms-sitemap .sm2_actions {display: none; padding: 3px 2px 0 5px;}
+#wpms-sitemap .sm2_status {position: absolute; top: 3px; right: 0;}
+
+#wpms-sitemap dl:hover dd, #wpms-sitemap dd:hover {display: block;}
+#wpms-sitemap dd strong {display: none;}
+#wpms-sitemap a {border: none;}
+#wpms-sitemap .sm2_expander {
+	display: block;
+	left: 0;
+	position: absolute;
+	text-indent: -5000px;
+	top: 4px;
+}
+
+#wpms-sitemap .sm2_liOpen {background: url(../img/sm2_li.gif) left repeat-y;}
+#wpms-sitemap .sm2_liOpen > dl > .sm2_expander {display: block; width: 15px; height: 19px; background: url(../_images/excol_open.gif) 50% 8px no-repeat;}
+#wpms-sitemap .sm2_liClosed > dl > .sm2_expander {display: block; width: 15px; height: 19px; background: url(../_images/excol_closed.gif) 50% 50% no-repeat;}
+#wpms-sitemap .sm2_liClosed ul {display: none;}
+
+#wpms-sitemap .dropzone { height:6px; background-color:#fff; border-bottom:4px solid #fff; }
